@@ -1,0 +1,38 @@
+/* Orchestré par David Leuliette  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: arrow
+*/
+
+
+/* -----------------------------------------
+   arrow
+----------------------------------------- */
+.arrow-right:after {
+	font-size: 1.4em;
+	margin: 0 0 0 0.2em;
+	content: "\2192";
+}
+
+.arrow-up-right:after {
+	font-size: 1.4em;
+	margin: 0 0 0 0.2em;
+	content: "\2197";
+}
+
+.arrow-left:before {
+	font-size: 1.4em;
+	margin: 0 0.2em 0 0;
+	content: "\2190";
+}
+
+.arrow-up:before {
+	font-size: 1.4em;
+	margin: 0 0.2em 0 0;
+	content: "\2191";
+}
+
+
+
