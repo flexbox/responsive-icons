@@ -1,38 +1,27 @@
-/* Orchestré par David Leuliette  */
+/*------------------------------------*\
+    CSS for symbol html icons
+\*------------------------------------*/
 
-/* -------------------------------------------------- 
-   Table of Contents
------------------------------------------------------
-:: arrow
-*/
+/* No normalize.css & reset because base.css */
 
 
-/* -----------------------------------------
-   arrow
------------------------------------------ */
-.arrow-right:after {
-	font-size: 1.4em;
-	margin: 0 0 0 0.2em;
-	content: "\2192";
-}
-
-.arrow-up-right:after {
-	font-size: 1.4em;
-	margin: 0 0 0 0.2em;
-	content: "\2197";
-}
-
-.arrow-left:before {
-	font-size: 1.4em;
-	margin: 0 0.2em 0 0;
-	content: "\2190";
-}
-
-.arrow-up:before {
-	font-size: 1.4em;
-	margin: 0 0.2em 0 0;
-	content: "\2191";
-}
 
 
+/*------------------------------------*\
+    $ICONS
+\*------------------------------------*/
+.icon{ font-style: normal; font-size:4em; line-height:100%; }
+.icon:after{ margin: 0 0 0 0.2em; }
+.icon:before{ margin: 0 0.2em 0 0; }
+
+
+/* Blockquote ----------------- */
+.bq-left-double:before  { content: "\201C"; }
+.bq-right-double:after { content: "\201D"; }
+
+/* Arrow ---------------------- */
+.arrow-right:after { content: "\2192"; }
+.arrow-up-right:after { content: "\2197"; }
+.arrow-left:before { content: "\2190"; }
+.arrow-up:before { content: "\2191"; }
 
