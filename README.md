@@ -1,6 +1,6 @@
 # Responsive icon
 
-A design pattern of all html unicode symbols usefull in web design
+A design pattern with html unicode symbols usefull in web design
 
 http://dev.w3.org/html5/html-author/charref
 
