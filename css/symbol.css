@@ -16,8 +16,12 @@
 
 
 /* Blockquote ----------------- */
-.bq-left-double:before  { content: "\201C"; }
-.bq-right-double:after { content: "\201D"; }
+.bq-double-left:before  { content: "\201C"; }
+.bq-double-right:after  { content: "\201D"; }
+.bq-pointer-left:before        { content: "\2039"; }
+.bq-pointer-right:after        { content: "\203A"; }
+.bq-pointer-double-left:before { content: "\00AB"; }
+.bq-pointer-double-right:after { content: "\00BB"; }
 
 /* Arrow ---------------------- */
 .arrow-right:after { content: "\2192"; }
