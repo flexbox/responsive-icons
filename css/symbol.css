@@ -19,13 +19,13 @@
 
 
 /* Blockquote ----------------- */
-.bq-double-left:before  { content: "\201C"; }
-.bq-double-right:after  { content: "\201D"; }
-.bq-pointer-left:before        { content: "\2039"; }
-.bq-pointer-right:after        { content: "\203A"; }
-.bq-pointer-double-left:before { content: "\00AB"; }
-.bq-pointer-double-right:after { content: "\00BB"; }
-.bq-dash:before{ content: "\2014"; }
+.bq-double-left:before         { content: "\201C"; } /* &ldquo; */
+.bq-double-right:after         { content: "\201D"; } /* &rdquo; */
+.bq-pointer-left:before        { content: "\2039"; } /* &lsaquo; */
+.bq-pointer-right:after        { content: "\203A"; } /* &rsaquo; */
+.bq-pointer-double-left:before { content: "\00AB"; } /* &laquo; */
+.bq-pointer-double-right:after { content: "\00BB"; } /* &raquo; */
+.bq-dash:before                { content: "\2014"; } /* &mdash; */
 
 /* Arrow ---------------------- */
 .arrow-right:after    { content: "\2192"; }
@@ -37,29 +37,28 @@
 .angle-left:before    { content: "\2329"; }
 
 /* Stars ---------------------- */
-.star-black:after{ content: "\2605"; }
-.star-white:after{ content: "\2606"; }
+.star-black:after{ content: "\2605"; } /* &bigstar; */
+.star-white:after{ content: "\2606"; } /* &star; */
 
 /* Geometric ------------------- */
 .triangle-black:after{ content: "\25B8"; } /* &rtrif; */
 .triangle-white:after{ content: "\25B9"; } /* &rtri;  */
-.square-black:after{ content: "\25AA"; } /* &squf; */
-.square-white:after{ content: "\25A1"; } /* &squ;  */
-.infinite:after{ content: "\8734"; } /* &infin;  */
+.infinite:after      { content: "\221e"; } /* &infin;  */
 
 /* Web UI ---------------------- */
 .ui-check:after{ content: "\2713"; }
 .ui-cross:after{ content: "\2717"; }
 .ui-add:after  { content: "\002B"; }
 
-.ui-tilde:after { content: "\02DC"; } /* &tilde; */
-.ui-tilde-light:after { content: "\223C"; } /* &sim; */
-.ui-bull:after { content: "\2022"; } /* &bull; */
-.ui-pipe:after { content: "\2758"; } /* &VerticalSeparator; */
-
 .phone:after { content: "\260E"; } /* &phone; */
-.email:after { content: "\9993"; } /*  */
+.email:after { content: "\2709"; } /*  */
 
 .female:after { content: "\2640"; } /* &female; */
 .male:after { content: "\2642"; } /* &male; */
 .heart:after { content: "\2665"; } /* &hearts; */
+
+/* Separator ---------------------- */
+.tilde:after { content: "\02DC"; } /* &tilde; */
+.tilde-light:after { content: "\223C"; } /* &sim; */
+.bull:after { content: "\2022"; } /* &bull; */
+.pipe:after { content: "\2758"; } /* &VerticalSeparator; */
