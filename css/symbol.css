@@ -33,8 +33,6 @@
 .arrow-left:before    { content: "\2190"; }
 .arrow-up:before      { content: "\2191"; }
 .arrow-circle:after   { content: "\21BA"; }
-.angle-right:after    { content: "\232A"; }
-.angle-left:before    { content: "\2329"; }
 
 /* Stars ---------------------- */
 .star-black:after{ content: "\2605"; } /* &bigstar; */
