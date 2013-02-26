@@ -33,6 +33,8 @@
 .arrow-left:before    { content: "\2190"; }
 .arrow-up:before      { content: "\2191"; }
 .arrow-circle:after   { content: "\21BA"; }
+.arrow-nav:after      { content: "\27A4"; }
+
 
 /* Stars ---------------------- */
 .star-black:after{ content: "\2605"; } /* &bigstar; */
@@ -47,13 +49,16 @@
 .ui-check:after{ content: "\2713"; }
 .ui-cross:after{ content: "\2717"; }
 .ui-add:after  { content: "\002B"; }
+.ui-menu:after { content: "\2261"; }
+
 
 .phone:after { content: "\260E"; } /* &phone; */
 .email:after { content: "\2709"; } /*  */
 
-.female:after { content: "\2640"; } /* &female; */
-.male:after { content: "\2642"; } /* &male; */
+.female:after{ content: "\2640"; } /* &female; */
+.male:after  { content: "\2642"; } /* &male; */
 .heart:after { content: "\2665"; } /* &hearts; */
+
 
 /* Separator ---------------------- */
 .tilde:after { content: "\02DC"; } /* &tilde; */
