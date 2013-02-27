@@ -30,17 +30,16 @@ i:hover{ border:1px solid red; }
 .bq-dash:before                { content: "\2014"; }
 
 /* Arrow ---------------------- */
-.arrow-right:after    { content: "\2192"; }
-.arrow-up-right:after { content: "\2197"; }
-.arrow-left:before    { content: "\2190"; }
-.arrow-up:before      { content: "\2191"; }
-.arrow-circle:after   { content: "\21BA"; }
-.arrow-nav:after      { content: "\27A4"; }
-
+.arrow-right:after    { content: "\2192"; } /* */
+.arrow-up-right:after { content: "\2197"; } /* */
+.arrow-left:before    { content: "\2190"; } /* */
+.arrow-up:before      { content: "\2191"; } /* */
+.arrow-circle:after   { content: "\21BA"; } /* */
+.arrow-nav:after      { content: "\27A4"; } /* */
 
 /* Stars ---------------------- */
-.star-black:after{ content: "\2605"; } /* &bigstar; */
-.star-white:after{ content: "\2606"; } /* &star; */
+.star-black:after{ content: "\2605"; }
+.star-white:after{ content: "\2606"; }
 
 /* Geometric ------------------- */
 .triangle-up:after   { content: "\25B2"; }
@@ -67,9 +66,8 @@ i:hover{ border:1px solid red; }
 .male:after  { content: "\2642"; } /* &male; */
 .heart:after { content: "\2665"; } /* &hearts; */
 
-
 /* Separator ---------------------- */
-.tilde:after { content: "\02DC"; } /* &tilde; */
-.tilde-light:after { content: "\223C"; } /* &sim; */
-.bull:after { content: "\2022"; } /* &bull; */
-.pipe:after { content: "\2758"; } /* &VerticalSeparator; */
+.tilde:after { content: "\02DC"; }
+.tilde-light:after { content: "\223C"; }
+.bull:after { content: "\2022"; }
+.pipe:after { content: "\2758"; }
