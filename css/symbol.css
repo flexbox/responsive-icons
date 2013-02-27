@@ -3,29 +3,31 @@
 \*------------------------------------*/
 
 /* No normalize.css & reset because base.css */
-
-
+.top-bar{ position: fixed; 	z-index: 1; }
+#header{
+	padding:50px 0 0 0;
+}
 
 
 /*------------------------------------*\
     $ICONS
 \*------------------------------------*/
-.icon{ font-style: normal; font-size:4em; line-height:100%; }
-.icon:after{ margin: 0 0 0 0.2em; }
-.icon:before{ margin: 0 0.2em 0 0; }
+i{ font-style: normal; font-size:4em; line-height:100%; border:1px solid #ffffff; cursor: pointer; }
+i:after{ margin: 0 0 0 0.2em; }
+i:before{ margin: 0 0.2em 0 0; }
 
-
+i:hover{ border:1px solid red; }
 
 
 
 /* Blockquote ----------------- */
-.bq-double-left:before         { content: "\201C"; } /* &ldquo; */
-.bq-double-right:after         { content: "\201D"; } /* &rdquo; */
-.bq-pointer-left:before        { content: "\2039"; } /* &lsaquo; */
-.bq-pointer-right:after        { content: "\203A"; } /* &rsaquo; */
-.bq-pointer-double-left:before { content: "\00AB"; } /* &laquo; */
-.bq-pointer-double-right:after { content: "\00BB"; } /* &raquo; */
-.bq-dash:before                { content: "\2014"; } /* &mdash; */
+.bq-double-left:before         { content: "\201C"; }
+.bq-double-right:after         { content: "\201D"; }
+.bq-pointer-left:before        { content: "\2039"; }
+.bq-pointer-right:after        { content: "\203A"; }
+.bq-pointer-double-left:before { content: "\00AB"; }
+.bq-pointer-double-right:after { content: "\00BB"; }
+.bq-dash:before                { content: "\2014"; }
 
 /* Arrow ---------------------- */
 .arrow-right:after    { content: "\2192"; }
@@ -41,6 +43,10 @@
 .star-white:after{ content: "\2606"; } /* &star; */
 
 /* Geometric ------------------- */
+.triangle-up:after   { content: "\25B2"; }
+.triangle-down:after { content: "\25BC"; }
+.triangle-right:after{ content: "\25BA"; }
+.triangle-left:after { content: "\25C4"; }
 .triangle-black:after{ content: "\25B8"; } /* &rtrif; */
 .triangle-white:after{ content: "\25B9"; } /* &rtri;  */
 .infinite:after      { content: "\221e"; } /* &infin;  */
@@ -49,6 +55,8 @@
 .ui-check:after{ content: "\2713"; }
 .ui-cross:after{ content: "\2717"; }
 .ui-add:after  { content: "\002B"; }
+.ui-add-big:after  { content: "\271A"; }
+
 .ui-menu:after { content: "\2261"; }
 
 

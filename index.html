@@ -14,84 +14,110 @@
 </head>
 <body>
 
-  <div class="row">
+  <nav class="top-bar">
+    <ul>
+      <!-- Title Area -->
+      <li class="name">
+        <h1>
+          <a href="#">
+            Top Bar Title
+          </a>
+        </h1>
+      </li>
+      <li class="toggle-topbar"><a href="#"></a></li>
+    </ul>
+
+    <ul id="entity" class="left">
+      <li class="divider"></li>
+      <li>
+        <a id="e-icon" href="#"></a>
+      </li>
+      <li>
+        <a id="e-name" href="#"></a>
+      </li>
+      <li>
+        <a id="e-hex" href="#"></a>
+      </li>
+      <li>
+        <a id="e-class" href="#"></a>
+      </li>
+    </ul>
+  </nav>
+
+  <div id="header" class="row">
     <div class="twelve columns">
-      <h2>Responsive html icons</h2>
+      <h2>Responsive icon</h2>
       <p>This is a huge collection of html symbols for responsive web design.</p>
-      <hr />
+      <hr>
     </div>
   </div>
 
   <div class="row">
-    <div class="eight columns">
-
-      <div class="row">
-        <div class="two columns">Icon</div>
-        <div class="six columns">Class</div>
-        <div class="two columns">Unicode</div>
-        <div class="two columns">Entity</div>
-      </div>
+    <div class="ten columns">
 
       <!-- Blockquote -->
       <h3>Blockquote <small>Quote punctuation characters</small></h3>
-      <i class="icon bq-double-left"></i>
-      <i class="icon bq-double-right"></i>
-      <i class="icon bq-pointer-left"></i>
-      <i class="icon bq-pointer-right"></i>
-      <i class="icon bq-pointer-double-left"></i>
-      <i class="icon bq-pointer-double-right"></i>
-      <i class="icon bq-dash"></i>
+      <i class="bq-double-left" entity-name="ldquo;" entity-hex="\201C"></i>
+      <i class="bq-double-right" entity-name="rdquo;" entity-hex="\201D"></i>
+      <i class="bq-pointer-left" entity-name="lsaquo;" entity-hex="\2139"></i>
+      <i class="bq-pointer-right" entity-name="rsaquo;" entity-hex="\203A"></i>
+      <i class="bq-pointer-double-left" entity-name="laquo;" entity-hex="\00AB"></i>
+      <i class="bq-pointer-double-right" entity-name="raquo;" entity-hex="\00BB"></i>
+      <i class="bq-dash" entity-name="mdash;" entity-hex="\2014"></i>
 
       <!-- Arrows -->
       <h3>Arrows</h3>
-      <i class="icon arrow-right"></i>
-      <i class="icon arrow-up-right"></i>
-      <i class="icon arrow-left"></i>
-      <i class="icon arrow-up"></i>
-      <i class="icon arrow-circle"></i>
-      <i class="icon arrow-nav"></i>
+      <i class="arrow-right"></i>
+      <i class="arrow-up-right"></i>
+      <i class="arrow-left"></i>
+      <i class="arrow-up"></i>
+      <i class="arrow-circle"></i>
+      <i class="arrow-nav"></i>
 
       <!-- Stars -->
       <h3>Stars</h3>
-      <i class="icon star-black"></i>
-      <i class="icon star-white"></i>
+      <i class="star-black" entity-name="bigstar;" entity-hex="\2605"></i>
+      <i class="star-white" ></i>
 
-      <!-- Web UI -->
+      <!-- Geometric -->
       <h3>Geometric shapes</h3>
-      <i class="icon triangle-black"></i>
-      <i class="icon triangle-white"></i>
-      <i class="icon infinite"></i>
+      <i class="triangle-left"></i>
+      <i class="triangle-up"></i>
+      <i class="triangle-right"></i>
+      <i class="triangle-down"></i>
+      <i class="triangle-black"></i>
+      <i class="triangle-white"></i>
+      <i class="infinite"></i>
 
       <!-- Web UI -->
       <h3>Web User Interface</h3>
-      <i class="icon ui-check"></i>
-      <i class="icon ui-cross"></i>
-      <i class="icon ui-add"></i>
-      <i class="icon ui-menu"></i>
-      <i class="icon phone"></i>
-      <i class="icon email"></i>
-      <i class="icon female"></i>
-      <i class="icon male"></i>
-      <i class="icon heart"></i>
+      <i class="ui-check"></i>
+      <i class="ui-cross"></i>
+      <i class="ui-add"></i>
+      <i class="ui-add-big"></i>
+      <i class="ui-menu"></i>
+      <i class="phone"></i>
+      <i class="email"></i>
+      <i class="female"></i>
+      <i class="male"></i>
+      <i class="heart"></i>
 
       <!-- Separator -->
       <h3>Separator</h3>
-      <i class="icon tilde"></i>
-      <i class="icon tilde-light"></i>
-      <i class="icon bull"></i>
-      <i class="icon pipe"></i>
+      <i class="tilde"></i>
+      <i class="tilde-light"></i>
+      <i class="bull"></i>
+      <i class="pipe"></i>
 
     </div>
 
-    <div class="four columns">
+    <div class="two columns">
       <h4>Welcome</h4>
       <p>The grid system is based on <a href="http://foundation.zurb.com/">foundation framework</a></p>
-      <p>All the class for the icons are in the symbol.css file.
-      I use the css element <code>:before</code> and <code>:after</code> for include icons</p>
+      <p>All the class for the  are in the symbol.css file.
+      I use the css element <code>:before</code> and <code>:after</code> for include </p>
 
       <h4>Assets</h4>
-      <p>http://dev.w3.org/html5/html-author/charref</p>
-      <p>http://www.fileformat.info/info/unicode/index.htm</p>
       <p>When you have finished playing with this document, you should check</p>
       <ul class="disc">
         <li><a href="http://github.com/flexbox">flexbox on Github</a><br />find this project on github.</li>
@@ -100,5 +126,7 @@
     </div>
   </div>
 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
