@@ -4,6 +4,7 @@
 
 /* No normalize.css & reset because base.css */
 .top-bar{ position: fixed; 	z-index: 1; }
+.top-bar li a{ cursor: pointer; }
 #header{
 	padding:50px 0 0 0;
 }
@@ -12,12 +13,17 @@
 /*------------------------------------*\
     $ICONS
 \*------------------------------------*/
-i{ font-style: normal; font-size:4em; line-height:100%; border:1px solid #ffffff; cursor: pointer; }
-i:after{ margin: 0 0 0 0.2em; }
+i{
+	font-style: normal; font-size:4em; line-height:100%;
+	border:1px solid #ffffff; cursor: pointer;
+	background-color: #F5F5F5;
+}
+i:after { margin: 0 0 0 0.2em; }
 i:before{ margin: 0 0.2em 0 0; }
+i:before,i:after{ width:4em; }
 
-i:hover{ border:1px solid red; }
-
+i:hover{ border:1px solid #C6C6C6; box-shadow: 0 1px 1px rgba(0,0,0,0.1); }
+i:focus{ border-color:#2BA6CB; }
 
 
 /* Blockquote ----------------- */
@@ -30,12 +36,12 @@ i:hover{ border:1px solid red; }
 .bq-dash:before                { content: "\2014"; }
 
 /* Arrow ---------------------- */
-.arrow-right:after    { content: "\2192"; } /* */
-.arrow-up-right:after { content: "\2197"; } /* */
-.arrow-left:before    { content: "\2190"; } /* */
-.arrow-up:before      { content: "\2191"; } /* */
-.arrow-circle:after   { content: "\21BA"; } /* */
-.arrow-nav:after      { content: "\27A4"; } /* */
+.arrow-right:after    { content: "\2192"; }
+.arrow-up-right:after { content: "\2197"; }
+.arrow-left:before    { content: "\2190"; }
+.arrow-up:before      { content: "\2191"; }
+.arrow-circle:after   { content: "\27F3"; }
+.arrow-nav:after      { content: "\27A4"; }
 
 /* Stars ---------------------- */
 .star-black:after{ content: "\2605"; }
@@ -46,21 +52,20 @@ i:hover{ border:1px solid red; }
 .triangle-down:after { content: "\25BC"; }
 .triangle-right:after{ content: "\25BA"; }
 .triangle-left:after { content: "\25C4"; }
-.triangle-black:after{ content: "\25B8"; } /* &rtrif; */
-.triangle-white:after{ content: "\25B9"; } /* &rtri;  */
-.infinite:after      { content: "\221e"; } /* &infin;  */
+.triangle-black:after{ content: "\25B8"; }
+.triangle-white:after{ content: "\25B9"; }
+.infinite:after      { content: "\221E"; }
 
 /* Web UI ---------------------- */
-.ui-check:after{ content: "\2713"; }
-.ui-cross:after{ content: "\2717"; }
-.ui-add:after  { content: "\002B"; }
-.ui-add-big:after  { content: "\271A"; }
+.ui-check:after{ content: "\2713"; } /* &#10003; */
+.ui-cross:after{ content: "\2717"; } /* &#10007; */
+.ui-add:after  { content: "\002B"; } /* &#43; */
+.ui-add-big:after  { content: "\271A"; } /* &#10010;*/
 
-.ui-menu:after { content: "\2261"; }
-
+.ui-menu:after { content: "\2261"; } /* &#8801;*/
 
 .phone:after { content: "\260E"; } /* &phone; */
-.email:after { content: "\2709"; } /*  */
+.email:after { content: "\2709"; } /* &#9993; */
 
 .female:after{ content: "\2640"; } /* &female; */
 .male:after  { content: "\2642"; } /* &male; */
