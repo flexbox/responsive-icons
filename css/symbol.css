@@ -1,10 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 
 /*------------------------------------*\
-    CSS for symbol html icons
+    APPLICATION
 \*------------------------------------*/
-
-/* No normalize.css & reset because base.css */
 .top-bar{ position: fixed; 	z-index: 1; }
 .top-bar li a{ cursor: pointer; }
 
@@ -14,6 +12,14 @@
 }
 
 #header{ padding:50px 0 0 0; }
+
+
+
+/*------------------------------------*\
+    CSS for symbol html icons
+\*------------------------------------*/
+
+
 
 
 
@@ -64,19 +70,27 @@ i:focus{ border-color:#2BA6CB; }
 .infinite:after      { content: "\221E"; }
 
 /* Web UI ---------------------- */
-.ui-check:after{ content: "\2713"; } /* &#10003; */
-.ui-cross:after{ content: "\2717"; } /* &#10007; */
-.ui-add:after  { content: "\002B"; } /* &#43; */
-.ui-add-big:after  { content: "\271A"; } /* &#10010;*/
+.ui-check:after      { content: "\2713"; }
+.ui-check-big:after  { content: "\2714"; }
+.ui-cross:after      { content: "\2717"; }
+.ui-cross-big:after  { content: "\2718"; }
+.ui-cross-large:after{ content: "\2716"; }
+.ui-add:after    { content: "\002B"; }
+.ui-add-big:after{ content: "\271A"; }
+.ui-menu:after   { content: "\2261"; }
 
-.ui-menu:after { content: "\2261"; } /* &#8801;*/
+.checkbox-empty:after { content: "\2610"; } 
+.checkbox-check:after { content: "\2611"; } 
+.checkbox-cross:after { content: "\2612"; } 
 
-.phone:after { content: "\260E"; } /* &phone; */
-.email:after { content: "\2709"; } /* &#9993; */
+.phone:after { content: "\260E"; }
+.email:after { content: "\2709"; }
+.female:after{ content: "\2640"; }
+.male:after  { content: "\2642"; }
+.heart:after { content: "\2665"; }
+.smiley-good:after  { content: "\263A"; }
+.smiley-bad:after   { content: "\2639"; }
 
-.female:after{ content: "\2640"; } /* &female; */
-.male:after  { content: "\2642"; } /* &male; */
-.heart:after { content: "\2665"; } /* &hearts; */
 
 /* Separator ---------------------- */
 .tilde:after { content: "\02DC"; }
