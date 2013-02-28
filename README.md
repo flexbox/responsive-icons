@@ -1,4 +1,4 @@
-#Responsive icon
+#<a href="http://responsiveicon.fr">Responsive icon</a>
 
 A design pattern with html unicode symbols usefull for web design.<br>
 The advantages of using entities rather than images :
@@ -38,5 +38,5 @@ Keep up to date on announcements and more by following David on Twitter, <a href
 
 ##ToDo
 
-Add Mobile first view
+Add Mobile first view<br>
 Add more icons
