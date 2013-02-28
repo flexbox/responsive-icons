@@ -1,7 +1,6 @@
 $(document).ready(function(){
 
-	/*console.log($(".star-black"));*/
-
+	/* Fetch data on the icon ----------------- */
 	$("i").click(function(){
 		$("#e-icon").html(
 				'&'+
@@ -18,17 +17,19 @@ $(document).ready(function(){
 			);
 	}); 
 
+	/* Copy / Paste function ----------------- */
 	$(".clipboard").click(function(){
+		//console.log(entity.test($(this).html()));
 		var texte = $(this).html();
 		var entity = new RegExp('<span>&amp;</span>');
-		//console.log(entity.test($(this).html()));
 		var retour = $('#e-name').val();
 
 		if (entity.test(texte) == true) {
 			retour = texte.replace("<span>&amp;</span>","")
 			retour = "&"+retour;
+		} else {
+			retour = texte;
 		}
-		
 
 		console.log(texte);
 		window.prompt ("Copy to clipboard : Ctrl+C", String(retour));	

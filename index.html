@@ -2,7 +2,7 @@
 <html class="no-js">
 <head>
   <meta charset="utf-8" />
-  <title>Responsive html symbols</title>
+  <title>Responsive icon</title>
     
   <!-- Included CSS Files (Compressed) -->
   <link rel="stylesheet" href="css/foundation.min.css">
@@ -19,7 +19,7 @@
       <!-- Title Area -->
       <li class="name">
         <h1>
-          <a href="#">
+          <a href="#content">
             Responsive icon
           </a>
         </h1>
@@ -30,34 +30,38 @@
     <ul id="entity" class="left">
       <li class="divider"></li>
       <li>
-        <a id="e-icon" class="clipboard" href="#"></a>
+        <a id="e-icon" class="clipboard"></a>
       </li>
       <li>
-        <a id="e-name" class="clipboard" href="#"></a>
+        <a id="e-name" class="clipboard"></a>
       </li>
       <li>
-        <a id="e-hex" class="clipboard" href="#"></a>
+        <a id="e-hex" class="clipboard"></a>
       </li>
       <li>
-        <a id="e-class" class="clipboard" href="#"></a>
-      </li>
-      <li class="divider"></li>
-      <li>
-        <a id="btn-copy" href="#">Copy to clipboard</a>
+        <a id="e-class" class="clipboard"></a>
       </li>
     </ul>
   </nav>
 
   <div id="header" class="row">
     <div class="twelve columns">
-      <h2>Responsive icon</h2>
-      <p>This is a huge collection of html symbols for responsive web design.</p>
+      <h2>Welcome</h2>
+      <p>This is a huge collection of <strong>usefull</strong> html symbols for responsive web design.</p>
+      <h4>How it works ?</h4>
+      <p>All the class are in the file symbol.css
+      I use the css element <code>:before</code> and <code>:after</code> for include icons</p>      
+      <ul>
+        <li>Select your icon</li>
+        <li>Copy the icon, the entity name, the hexadecimal code or the class name</li>
+      </ul>
+      <p>A small message on twitter <a href="http://twitter.com/_flexbox">@_flexbox</a> if you have questions</p>
       <hr>
     </div>
   </div>
 
-  <div class="row">
-    <div class="ten columns">
+  <div id="content" class="row">
+    <div class="twelve columns">
 
       <!-- Blockquote -->
       <h3>Blockquote <small>Quote punctuation characters</small></h3>
@@ -71,27 +75,24 @@
 
       <!-- Arrows -->
       <h3>Arrows</h3>
-      <i class="arrow-right"></i>
-      <i class="arrow-up-right"></i>
-      <i class="arrow-left"></i>
-      <i class="arrow-up"></i>
-      <i class="arrow-circle"></i>
-      <i class="arrow-nav"></i>
-
-      <!-- Stars -->
-      <h3>Stars</h3>
-      <i class="star-black" entity-name="bigstar;" entity-hex="\2605"></i>
-      <i class="star-white" entity-name="star;" entity-hex="\2605"></i>
+      <i class="arrow-right" entity-name="rarr;" entity-hex="\2192"></i>
+      <i class="arrow-up-right" entity-name="nearr;" entity-hex="\2197"></i>
+      <i class="arrow-left" entity-name="larr;" entity-hex="\2190"></i>
+      <i class="arrow-up" entity-name="uarr;" entity-hex="\2191"></i>
+      <i class="arrow-circle" entity-name="olarr;" entity-hex="\27F3"></i>
+      <i class="arrow-nav" entity-name="#10148;" entity-hex="\27A4"></i>
 
       <!-- Geometric -->
       <h3>Geometric shapes</h3>
-      <i class="triangle-left"></i>
-      <i class="triangle-up"></i>
-      <i class="triangle-right"></i>
-      <i class="triangle-down"></i>
-      <i class="triangle-black"></i>
-      <i class="triangle-white"></i>
-      <i class="infinite"></i>
+      <i class="triangle-left" entity-name="#9668;" entity-hex="\25C4"></i>
+      <i class="triangle-up" entity-name="#9650;" entity-hex="\25B2"></i>
+      <i class="triangle-right" entity-name="#9658;" entity-hex="\25BA"></i> 
+      <i class="triangle-down" entity-name="#9660;" entity-hex="\25BC"></i>
+      <i class="triangle-black" entity-name="rtrif;" entity-hex="\25B8"></i>
+      <i class="triangle-white" entity-name="rtri;" entity-hex="\25B9"></i>
+      <i class="infinite" entity-name="infin;" entity-hex="\221E"></i>
+      <i class="star-black" entity-name="bigstar;" entity-hex="\2605"></i>
+      <i class="star-white" entity-name="star;" entity-hex="\2606"></i>
 
       <!-- Web UI -->
       <h3>Web User Interface</h3>
@@ -114,21 +115,14 @@
       <i class="pipe" entity-name="VerticalSeparator;" entity-hex="\2758"></i>
 
     </div>
-
-    <div class="two columns">
-      <h4>Welcome</h4>
-      <p>The grid system is based on <a href="http://foundation.zurb.com/">foundation framework</a></p>
-      <p>All the class for the  are in the symbol.css file.
-      I use the css element <code>:before</code> and <code>:after</code> for include </p>
-
-      <h4>Assets</h4>
-      <p>When you have finished playing with this document, you should check</p>
-      <ul class="disc">
-        <li><a href="http://github.com/flexbox">flexbox on Github</a><br />find this project on github.</li>
-        <li><a href="http://twitter.com/_flexbox">@_flexbox</a><br />A small message on twitter if you have questionss</li>
-      </ul>
-    </div>
   </div>
+
+  <footer class="row">
+    <div class="twelve columns">
+      <hr>
+      <p>Made with <span class="heart"></span> and the <a href="http://foundation.zurb.com/">foundation framework</a> for the grid system</p>
+    </div>
+  </footer>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="js/app.js"></script>
