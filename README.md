@@ -1,6 +1,6 @@
-# Responsive icon
+#Responsive icon
 
-A design pattern with html unicode symbols usefull for web design.
+A design pattern with html unicode symbols usefull for web design.<br>
 The advantages of using entities rather than images :
 
 1. It loads fast because it is text base.
@@ -9,9 +9,13 @@ The advantages of using entities rather than images :
 
 I have used these website
 
-Official website of w3c for html symbols (http://dev.w3.org/html5/html-author/charref)
+w3c website for <a href="http://dev.w3.org/html5/html-author/charref">html symbols</a><br>
+The documentation of all <a href="http://www.fileformat.info/info/unicode/index.htm">unicode characters</a>
 
-The documentation of all symbols (http://www.fileformat.info/info/unicode/index.htm)
+##How it works ?
+
+All the class are in the file symbol.css
+I use the css element <code>:before</code> and <code>:after</code> for include icons
 
 ##Compatibility
 
@@ -27,6 +31,12 @@ Browser checklist
 - Opera
 - IE
 
+##Twitter account
+
+Keep up to date on announcements and more by following David on Twitter, <a href="http://twitter.com/_flexbox">@_flexbox</a>.
+
+
 ##ToDo
 
-add a copy to clipboard system (any idea ?)
+Add Mobile first view
+Add more icons

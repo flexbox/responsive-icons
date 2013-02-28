@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
 /*------------------------------------*\
     CSS for symbol html icons
 \*------------------------------------*/
@@ -5,9 +7,14 @@
 /* No normalize.css & reset because base.css */
 .top-bar{ position: fixed; 	z-index: 1; }
 .top-bar li a{ cursor: pointer; }
-#header{
-	padding:50px 0 0 0;
+
+.top-bar h1 { font-family: 'Lobster', cursive; }
+.top-bar > ul .name h1 a {
+	font-size: 30px !important;
 }
+
+#header{ padding:50px 0 0 0; }
+
 
 
 /*------------------------------------*\
