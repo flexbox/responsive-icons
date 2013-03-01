@@ -1,59 +1,21 @@
-@import url(http://fonts.googleapis.com/css?family=Lobster);
-
 /*------------------------------------*\
-    APPLICATION
+    $ICONS CLASS
 \*------------------------------------*/
-.top-bar{ position: fixed; 	z-index: 1; }
-.top-bar li a{ cursor: pointer; }
-
-.top-bar h1 { font-family: 'Lobster', cursive; }
-.top-bar > ul .name h1 a {
-	font-size: 30px !important;
-}
-
-#header{ padding:50px 0 0 0; }
-
-
-
-/*------------------------------------*\
-    CSS for symbol html icons
-\*------------------------------------*/
-
-
-
-
-
-/*------------------------------------*\
-    $ICONS
-\*------------------------------------*/
-i{
-	font-style: normal; font-size:4em; line-height:100%;
-	border:1px solid #ffffff; cursor: pointer;
-	background-color: #F5F5F5;
-}
-i:after { margin: 0 0 0 0.2em; }
-i:before{ margin: 0 0.2em 0 0; }
-i:before,i:after{ width:4em; }
-
-i:hover{ border:1px solid #C6C6C6; box-shadow: 0 1px 1px rgba(0,0,0,0.1); }
-i:focus{ border-color:#2BA6CB; }
-
-
 /* Blockquote ----------------- */
-.bq-double-left:before         { content: "\201C"; }
+.bq-double-left::before         { content: "\201C"; }
 .bq-double-right:after         { content: "\201D"; }
-.bq-pointer-left:before        { content: "\2039"; }
+.bq-pointer-left::before        { content: "\2039"; }
 .bq-pointer-right:after        { content: "\203A"; }
-.bq-pointer-double-left:before { content: "\00AB"; }
+.bq-pointer-double-left::before { content: "\00AB"; }
 .bq-pointer-double-right:after { content: "\00BB"; }
-.bq-dash:before                { content: "\2014"; }
+.bq-dash::before                { content: "\2014"; }
 
 /* Arrow ---------------------- */
 .arrow-right:after    { content: "\2192"; }
 .arrow-up-right:after { content: "\2197"; }
-.arrow-left:before    { content: "\2190"; }
-.arrow-up:before      { content: "\2191"; }
-.arrow-circle:after   { content: "\27F3"; }
+.arrow-left::before    { content: "\2190"; }
+.arrow-up::before      { content: "\2191"; }
+.arrow-circle:after   { content: "\21BB"; }
 .arrow-nav:after      { content: "\27A4"; }
 
 /* Stars ---------------------- */
@@ -90,7 +52,6 @@ i:focus{ border-color:#2BA6CB; }
 .heart:after { content: "\2665"; }
 .smiley-good:after  { content: "\263A"; }
 .smiley-bad:after   { content: "\2639"; }
-
 
 /* Separator ---------------------- */
 .tilde:after { content: "\02DC"; }

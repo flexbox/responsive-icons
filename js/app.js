@@ -10,10 +10,12 @@ $(document).ready(function(){
 				'<span>&</span>'+
 				$(this).attr("entity-name")
 			);
-		$("#e-hex").html($(this).attr("entity-hex"));
+		$("#e-hex").html(
+				$(this).attr("entity-hex")
+			);
 		$("#e-class").html(
-			'.'+
-			$(this).attr("class")
+				'.'+
+				$(this).attr("class")
 			);
 	}); 
 
