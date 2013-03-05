@@ -15,7 +15,7 @@
 	font-size: 30px !important;
 }
 
-#header{ padding:50px 0 0 0; }
+header{ padding:50px 0 0 0; }
 #e-icon{ font-size: 2em; }
 
 
@@ -48,3 +48,10 @@ i:focus{ border-color:#2BA6CB; }
 .arrow-up-right::after,
 .ui-menu::after{ padding: 0 10px 0 0; }
 .arrow-up::before{ padding: 0  10px 0 20px; }
+
+ 
+.heart:after, 
+.tilde-light:after { padding: 0 10px 0 0; }
+.tilde:after,
+.bull:after,
+.pipe:after { padding: 0 20px 0 10px; }
