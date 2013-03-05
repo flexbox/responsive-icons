@@ -2,7 +2,8 @@
 <html class="no-js">
 <head>
   <meta charset="utf-8" />
-  <title>Responsive icon</title>
+  <title>Responsive icon &bull; smart web app for scalable icons</title>
+  <meta name="description" content="Easy and fast application for character icons usefull in reponsive webdesign">
     
   <!-- Included CSS Files (Compressed) -->
   <link rel="stylesheet" href="css/foundation.min.css">
@@ -11,6 +12,10 @@
     
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/vnd.microsoft.icon" href="img/favicon.ico" />
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
 
 </head>
 <body>
@@ -144,9 +149,28 @@
     </div>
   </footer>
 
-  <!-- twitter btn-->
+
+  <!-- Google CDN -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
   <script src="js/app.js"></script>
+
+  <!-- twitter btn-->
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>    
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39017799-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
 </body>
 </html>
