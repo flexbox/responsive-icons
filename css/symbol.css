@@ -39,7 +39,9 @@
 .ui-cross-large:after{ content: "\2716"; }
 .ui-add:after    { content: "\002B"; }
 .ui-add-big:after{ content: "\271A"; }
+.ui-edit:after   { content: "\270E"; }
 .ui-menu:after   { content: "\2261"; }
+
 
 .checkbox-empty:after { content: "\2610"; } 
 .checkbox-check:after { content: "\2611"; } 
@@ -51,6 +53,7 @@
 .male:after  { content: "\2642"; }
 .heart:after { content: "\2665"; }
 .smiley-good:after  { content: "\263A"; }
+.smiley-black:after { content: "\263B"; }
 .smiley-bad:after   { content: "\2639"; }
 
 /* Separator ---------------------- */
