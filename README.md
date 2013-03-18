@@ -40,7 +40,9 @@ Keep up to date on announcements and more by following David on Twitter, <a href
 ##ToDo
 
 Add Mobile first view<br>
-Add more icons
-
+Add more icons<br>
+Js :<br>
+show a textarea and focus the content or contentEditable="true" et document.get/setSelection() 
+https://developer.mozilla.org/en-US/docs/DOM/window.getSelection?redirectlocale=en-US&redirectslug=DOM%3Awindow.getSelection
 
 ##<a href="http://responsiveicon.fr">Demo</a>
