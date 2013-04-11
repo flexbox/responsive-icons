@@ -11,6 +11,7 @@
 .top-bar li a{ cursor: pointer; }
 
 .top-bar h1 { font-family: 'Lobster', cursive; }
+.top-bar>ul .name h1 { width:2em;}
 .top-bar > ul .name h1 a {
 	font-size: 30px !important;
 }
@@ -21,8 +22,9 @@ header{ padding:50px 0 0 0; }
 
 
 
+
 /*------------------------------------*\
-    $ICONS STYLE 
+    $ICONS STYLE
 \*------------------------------------*/
 i{
 	font-style: normal; font-size:4em; line-height:100%;
@@ -49,8 +51,8 @@ i:focus{ border-color:#2BA6CB; }
 .ui-menu::after{ padding: 0 10px 0 0; }
 .arrow-up::before{ padding: 0  10px 0 20px; }
 
- 
-.heart:after, 
+
+.heart:after,
 .tilde-light:after { padding: 0 10px 0 0; }
 .tilde:after,
 .bull:after,

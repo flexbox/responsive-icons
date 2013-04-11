@@ -42,7 +42,10 @@ Keep up to date on announcements and more by following David on Twitter, <a href
 Add Mobile first view<br>
 Add more icons<br>
 Js :<br>
-show a textarea and focus the content or contentEditable="true" et document.get/setSelection() 
+show a textarea and focus the content or contentEditable="true" et document.get/setSelection()
 https://developer.mozilla.org/en-US/docs/DOM/window.getSelection?redirectlocale=en-US&redirectslug=DOM%3Awindow.getSelection
 
-##<a href="http://responsiveicon.fr">Demo</a>
+http://www.fileformat.info/info/unicode/block/supplemental_arrows_b/utf8test.htm
+
+##Demo
+http://responsiveicon.fr
