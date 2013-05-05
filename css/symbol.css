@@ -43,7 +43,7 @@
 .ui-add-big::after    { content: "\271A"; }
 .ui-edit::after       { content: "\270E"; }
 .ui-menu::after       { content: "\2261"; }
-.ui-zoom-open::after  { content: "\2921"; }
+.ui-zoom-open::after  { content: "\2922"; }
 
 .checkbox-empty::after { content: "\2610"; }
 .checkbox-check::after { content: "\2611"; }
@@ -62,5 +62,6 @@
 .tilde::after       { content: "\02DC"; }
 .tilde-light::after { content: "\223C"; }
 .bull::after        { content: "\2022"; }
+.sdot::after        { content: "\22c5"; }
 .pipe::after        { content: "\2758"; }
 .tri-right::after   { content: "\2023"; }
