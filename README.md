@@ -1,5 +1,7 @@
 #<a href="http://responsiveicon.fr">Responsive icon</a>
 
+###Quickly copy paste icons
+
 A design pattern with html unicode symbols usefull in webdesign.<br>
 The advantages of using entities rather than images :
 
