@@ -9,7 +9,7 @@ The advantages of using entities rather than images :
 2. Scalable according to font size.
 3. Easy to change color and sizing.
 
-I have used these website :
+Thanks to these websites :
 
 w3c website for <a href="http://dev.w3.org/html5/html-author/charref">html symbols</a><br>
 The documentation of all <a href="http://www.fileformat.info/info/unicode/index.htm">unicode characters</a><br>
@@ -38,14 +38,10 @@ If you want support for IE8 you can use the css2 pseudo-element <code>:before</c
 
 Keep up to date on announcements and more by following David on Twitter, <a href="http://twitter.com/_flexbox">@_flexbox</a>.
 
-
 ##ToDo
 
 Add Mobile first view<br>
 Add more icons<br>
-Js :<br>
-show a textarea and focus the content or contentEditable="true" et document.get/setSelection()
-https://developer.mozilla.org/en-US/docs/DOM/window.getSelection?redirectlocale=en-US&redirectslug=DOM%3Awindow.getSelection
 
 http://www.fileformat.info/info/unicode/block/supplemental_arrows_b/utf8test.htm
 
