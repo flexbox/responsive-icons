@@ -24,6 +24,10 @@
 .star-black::after { content: "\2605"; }
 .star-white::after { content: "\2606"; }
 
+/* Symbols ------------------- */
+.symbol-copy::after { content: "\00A9"; }
+.symbol-tm::after   { content: "\2122"; }
+
 /* Geometric ------------------- */
 .triangle-up::after   { content: "\25B2"; }
 .triangle-down::after { content: "\25BC"; }

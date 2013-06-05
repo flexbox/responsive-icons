@@ -17,6 +17,18 @@
   <link rel="icon" type="image/vnd.microsoft.icon" href="img/favicon.ico" />
   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
 
+  <!-- Google Analytics -->
+  <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-39017799-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 </head>
 <body>
 
@@ -31,16 +43,16 @@
 
       <li class="divider"></li>
       <li>
-        <a id="e-icon" class="clipboard" title="Icon of your choice"></a>
+        <a id="e-icon" class="clipboard" title="Icon of your choice" data-track='{ "category" : "top-bar", "action" : "clic", "label" : "icon" }'></a>
       </li>
       <li>
-        <a id="e-name" class="clipboard" title="Caracter Entity"></a>
+        <a id="e-name" class="clipboard" title="Caracter Entity" data-track='{ "category" : "top-bar", "action" : "clic", "label" : "entity" }'></a>
       </li>
       <li>
-        <a id="e-hex" class="clipboard" title="Hexadecimal code"></a>
+        <a id="e-hex" class="clipboard" title="Hexadecimal code" data-track='{ "category" : "top-bar", "action" : "clic", "label" : "hexadecimal" }'></a>
       </li>
       <li>
-        <a id="e-class" class="clipboard" title="Class name"></a>
+        <a id="e-class" class="clipboard" title="Class name" data-track='{ "category" : "top-bar", "action" : "clic", "label" : "class" }'></a>
       </li>
     </ul>
 
@@ -50,8 +62,7 @@
         <a href="https://twitter.com/_flexbox" class="twitter-follow-button" data-show-count="false" data-lang="fr">Suivre @_flexbox</a>
       </li>
       <li id="btn-gh">
-        <iframe src="http://ghbtns.com/github-btn.html?user=flexbox&repo=responsive-icons&type=fork"
-  allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe>
+        <iframe src="http://ghbtns.com/github-btn.html?user=flexbox&repo=responsive-icons&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe>
       </li>
 
     </ul>
@@ -71,7 +82,9 @@
     <div class="four columns">
       <h3>Want to download the icon collection ?</h3>
       <p>Simply grab the css file by clicking this link</p>
-      <a href="https://github.com/flexbox/responsive-icons/blob/gh-pages/css/symbol.css" class="button large" download="icons.css"><span>Download</span></a>
+      <a href="https://github.com/flexbox/responsive-icons/blob/gh-pages/css/symbol.css" class="button large" download="icons.css" data-track='{ "category" : "call-action", "action" : "button", "label" : "download" }'>
+        <span>Download</span>
+      </a>
     </div>
     <hr>
   </header>
@@ -163,25 +176,13 @@
 
   <!-- Google CDN -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+  <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+  <script src="js/jquery.analytics.js"></script>
+
   <script src="js/app.js"></script>
 
   <!-- twitter btn-->
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-  <!-- Google Analytics -->
-<script>
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-39017799-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 </body>
 </html>
