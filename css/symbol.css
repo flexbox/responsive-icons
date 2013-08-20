@@ -1,6 +1,7 @@
 /*------------------------------------*\
     $ICONS CLASS
 \*------------------------------------*/
+
 /* Blockquote ----------------- */
 .bq-double-left::before         { content: "\201C"; }
 .bq-double-right::after         { content: "\201D"; }
@@ -53,7 +54,7 @@
 .checkbox-check::after { content: "\2611"; }
 .checkbox-cross::after { content: "\2612"; }
 
-.phone::after        { content: "\260E"; }
+.phone::after        { content: "\2706"; }
 .email::after        { content: "\2709"; }
 .female::after       { content: "\2640"; }
 .male::after         { content: "\2642"; }

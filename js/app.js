@@ -1,5 +1,8 @@
 $(document).ready(function(){
 
+	/* init analytics ------------------------- */
+	$(document).analytics();
+
 	/* Fetch data on the icon ----------------- */
 	$("i").click(function(){
 		$("#e-icon").html(
@@ -17,11 +20,10 @@ $(document).ready(function(){
 				'.'+
 				$(this).attr("class")
 			);
-	}); 
+	});
 
 	/* Copy / Paste function ----------------- */
 	$(".clipboard").click(function(){
-		//console.log(entity.test($(this).html()));
 		var texte = $(this).html();
 		var entity = new RegExp('<span>&amp;</span>');
 		var retour = $('#e-name').val();
@@ -33,9 +35,8 @@ $(document).ready(function(){
 			retour = texte;
 		}
 
-		console.log(texte);
-		window.prompt ("Copy to clipboard : Ctrl+C", String(retour));	
+		window.prompt ("Copy to clipboard : Ctrl+C", String(retour));
 	});
 
 
-});	
+});

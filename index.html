@@ -17,6 +17,18 @@
   <link rel="icon" type="image/vnd.microsoft.icon" href="img/favicon.ico" />
   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
 
+  <!-- Google Analytics -->
+  <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-39017799-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 </head>
 <body>
 
@@ -31,16 +43,16 @@
 
       <li class="divider"></li>
       <li>
-        <a id="e-icon" class="clipboard" title="Icon of your choice"></a>
+        <a id="e-icon" class="clipboard" title="Icon of your choice" data-track='{ "category" : "top-bar", "action" : "clic", "label" : "icon" }'></a>
       </li>
       <li>
-        <a id="e-name" class="clipboard" title="Caracter Entity"></a>
+        <a id="e-name" class="clipboard" title="Caracter Entity" data-track='{ "category" : "top-bar", "action" : "clic", "label" : "entity" }'></a>
       </li>
       <li>
-        <a id="e-hex" class="clipboard" title="Hexadecimal code"></a>
+        <a id="e-hex" class="clipboard" title="Hexadecimal code" data-track='{ "category" : "top-bar", "action" : "clic", "label" : "hexadecimal" }'></a>
       </li>
       <li>
-        <a id="e-class" class="clipboard" title="Class name"></a>
+        <a id="e-class" class="clipboard" title="Class name" data-track='{ "category" : "top-bar", "action" : "clic", "label" : "class" }'></a>
       </li>
     </ul>
 
@@ -50,8 +62,7 @@
         <a href="https://twitter.com/_flexbox" class="twitter-follow-button" data-show-count="false" data-lang="fr">Suivre @_flexbox</a>
       </li>
       <li id="btn-gh">
-        <iframe src="http://ghbtns.com/github-btn.html?user=flexbox&repo=responsive-icons&type=fork"
-  allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe>
+        <iframe src="http://ghbtns.com/github-btn.html?user=flexbox&repo=responsive-icons&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe>
       </li>
 
     </ul>
@@ -71,7 +82,9 @@
     <div class="four columns">
       <h3>Want to download the icon collection ?</h3>
       <p>Simply grab the css file by clicking this link</p>
-      <a href="https://github.com/flexbox/responsive-icons/blob/gh-pages/css/symbol.css" class="button large" download="icons.css"><span>Download</span></a>
+      <a href="https://github.com/flexbox/responsive-icons/blob/gh-pages/css/symbol.css" class="button large" download="icons.css" data-track='{ "category" : "call-action", "action" : "button", "label" : "download" }'>
+        <span>Download</span>
+      </a>
     </div>
     <hr>
   </header>
@@ -79,7 +92,6 @@
   <div id="content" class="row">
     <div class="twelve columns">
 
-      <!-- Blockquote -->
       <h3>Blockquote <small>Quote punctuation characters</small></h3>
       <i class="bq-double-left"          entity-name="ldquo;"  entity-hex="\201C"></i>
       <i class="bq-double-right"         entity-name="rdquo;"  entity-hex="\201D"></i>
@@ -89,7 +101,6 @@
       <i class="bq-pointer-double-right" entity-name="raquo;"  entity-hex="\00BB"></i>
       <i class="bq-dash"                 entity-name="mdash;"  entity-hex="\2014"></i>
 
-      <!-- Arrows -->
       <h3>Arrows</h3>
       <i class="arrow-left"         entity-name="larr;" entity-hex="\2190"></i>
       <i class="arrow-right"        entity-name="rarr;" entity-hex="\2192"></i>
@@ -100,7 +111,10 @@
       <i class="arrow-nav"          entity-name="#10148;" entity-hex="\27A4"></i>
       <i class="arrow-download"     entity-name="#8675;" entity-hex="\21E3"></i>
 
-      <!-- Geometric -->
+      <h3>Symbol</h3>
+      <i class="symbol-copy"       entity-name="copy;"  entity-hex="\00A9"></i>
+      <i class="symbol-tm"         entity-name="trade;"  entity-hex="\2122"></i>
+
       <h3>Geometric shapes</h3>
       <i class="triangle-left"  entity-name="#9668;" entity-hex="\25C4"></i>
       <i class="triangle-up"    entity-name="#9650;" entity-hex="\25B2"></i>
@@ -112,7 +126,6 @@
       <i class="star-black"     entity-name="bigstar;" entity-hex="\2605"></i>
       <i class="star-white"     entity-name="star;" entity-hex="\2606"></i>
 
-      <!-- Web UI -->
       <h3>Web User Interface</h3>
       <h5>Forms</h5>
       <i class="ui-check" entity-name="#10003;" entity-hex="\2713"></i>
@@ -132,7 +145,7 @@
       <i class="ui-zoom-open" entity-name="#10530;" entity-hex="\2922"></i>
 
       <h5>Icons</h5>
-      <i class="phone" entity-name="phone;" entity-hex="\260E"></i>
+      <i class="phone" entity-name="#9990;" entity-hex="\2706"></i>
       <i class="email" entity-name="#9993;" entity-hex="\2709"></i>
       <i class="female" entity-name="female;" entity-hex="\2640"></i>
       <i class="male" entity-name="male;" entity-hex="\2642"></i>
@@ -141,7 +154,6 @@
       <i class="smiley-black" entity-name="#9787;" entity-hex="\263B"></i>
       <i class="smiley-bad" entity-name="#9785;" entity-hex="\2639"></i>
 
-      <!-- Separator -->
       <h3>Separator</h3>
       <i class="tilde" entity-name="tilde;" entity-hex="\02DC"></i>
       <i class="tilde-light" entity-name="sim;" entity-hex="\223C"></i>
@@ -163,25 +175,13 @@
 
   <!-- Google CDN -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+  <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+  <script src="js/jquery.analytics.js"></script>
+
   <script src="js/app.js"></script>
 
   <!-- twitter btn-->
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-  <!-- Google Analytics -->
-<script>
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-39017799-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 </body>
 </html>
