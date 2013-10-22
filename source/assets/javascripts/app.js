@@ -5,18 +5,18 @@ $(document).ready(function(){
 
 	/* Fetch data on the icon ----------------- */
 	$("i").click(function(){
-		$("#e-icon").html(
+		$("#js-icon").html(
 				'&'+
 				$(this).attr("entity-name")
 			);
-		$("#e-name").html(
+		$("#js-name").html(
 				'<span>&</span>'+
 				$(this).attr("entity-name")
 			);
-		$("#e-hex").html(
+		$("#js-hex").html(
 				$(this).attr("entity-hex")
 			);
-		$("#e-class").html(
+		$("#js-class").html(
 				'.'+
 				$(this).attr("class")
 			);
