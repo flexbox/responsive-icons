@@ -37,6 +37,7 @@
 /* Web UI ---------------------- */
 .ui-check:after      { content: "\2713"; }
 .ui-check-big:after  { content: "\2714"; }
+.ui-cross-light:after{ content: "\274C"; }
 .ui-cross:after      { content: "\2717"; }
 .ui-cross-big:after  { content: "\2718"; }
 .ui-cross-large:after{ content: "\2716"; }
@@ -45,6 +46,8 @@
 .ui-edit:after       { content: "\270E"; }
 .ui-menu:after       { content: "\2261"; }
 .ui-zoom-open:after  { content: "\2922"; }
+.ui-zoom-open-invert:after  { content: "\2921"; }
+.ui-warning:after  { content: "\26A0"; }
 
 .checkbox-empty:after { content: "\2610"; }
 .checkbox-check:after { content: "\2611"; }
@@ -66,3 +69,7 @@
 .sdot:after        { content: "\22c5"; }
 .pipe:after        { content: "\2758"; }
 .tri-right:after   { content: "\2023"; }
+
+/* Weather ---------------------- */
+.weather-sun:after       { content: "\263C"; }
+.weather-thunder:after   { content: "\26A1"; }
