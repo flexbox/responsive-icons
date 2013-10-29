@@ -9,13 +9,14 @@ html
       = data.page.title || "Responsive Icon"
     meta name="description" content="<%= data.page.title %>"
 
-    = stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Lobster'
+    = stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Lobster|PT+Sans'
     = stylesheet_link_tag 'application'
     = partial 'views/analytics_code'
   body
 
     = partial "views/header"
     = yield
+    = partial "views/feedback"
     = partial "views/footer"
 
     a href="#{data.settings.social.google_plus}?rel=author" class="hide"

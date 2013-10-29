@@ -13,10 +13,12 @@
   "foundation/grid",
   "foundation/visibility",
   "foundation/type",
-  "foundation/section",
+  "foundation/block-grid",
   "foundation/buttons",
   "foundation/top-bar";
 
-@import "typeplate";
-@import "theme";
-@import "module-feedback";
+@import
+  "symbol",
+  "symbol-style",
+  "theme",
+  "clipboard";

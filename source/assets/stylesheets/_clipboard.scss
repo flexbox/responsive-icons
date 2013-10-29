@@ -1,0 +1,12 @@
+.m-clipboard {
+  position: fixed;
+  bottom: 100px;
+  height: 100px;
+  width: 100%;
+  @include single-transition();
+
+  .is-active {
+    bottom: 0px;
+  }
+
+}
