@@ -2,6 +2,7 @@ $(document).ready ->
 
   # Fetch data on the icon
   $("i").click ->
+    $('.m-clipboard').addClass('is-active')
     $("#js-icon").html "&" + $(this).attr("entity-name")
     $("#js-name").html "<span>&</span>" + $(this).attr("entity-name")
     $("#js-hex").html $(this).attr("entity-hex")

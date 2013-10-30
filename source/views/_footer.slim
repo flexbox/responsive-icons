@@ -2,15 +2,17 @@ footer.footer-content
   .row
     .small-12.columns.text-center
       p
-        = link_to('&#9650; Haut de page','#top')
+        = link_to('&#9650; Top page','#top')
+      p
+        = partial "views/feedback"
 
   .row
     .columns.large-12
       p.text-center
-        'Ce site est administré par David Leuliette. Il est codé avec ♥ grâce à un savant hacking de
+        'Responsive icon is created, and maintained by David Leuliette. Coded with ♥ and thanks to a clever hacking of
         = link_to('Middleman ', 'http://middlemanapp.com/')
-        'pour la génération du site,
+        ',
         = link_to('Foundation ', 'http://foundation.zurb.com/')
-        'pour le système de grille et
+        'for the grid system, hosted on
         = link_to('github ', 'https://github.com/flexbox/')
-        'pour l'hébergement.
+        '.

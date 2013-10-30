@@ -1,8 +1,7 @@
 .row
   .large-12.columns
-    div class="m-feedback"
-      h3 class="m-feedback--header epsilon"
-        'Des commentaires ? posez moi directement une question
-        = link_to '@_flexbox', data.settings.social.twitter
-      p class="m-feedback--description"
-        'Je lis chaque mention sur Twitter. Si vous trouvez un bug ou avez des questions, n'hésitez pas à <a href="mailto:dleuliette@gmail.com">m'envoyer un email</a>. Le les lis tous et j'essaye d'y repondre rapidement.
+    .m-feedback
+      .m-feedback--header.epsilon
+        p
+          'Comments ? Bug ? ask me a question directly
+          = link_to '@_flexbox', data.settings.social.twitter
