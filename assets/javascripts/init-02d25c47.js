@@ -1,1 +1,0 @@
-!function(){$(document).ready(function(){return $(document).analytics()})}.call(this);
