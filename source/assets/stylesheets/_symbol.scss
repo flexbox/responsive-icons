@@ -1,18 +1,18 @@
 /* Blockquote ----------------- */
-.bq-double-left:before         { content: "\201C"; }
+.bq-double-left:after         { content: "\201C"; }
 .bq-double-right:after         { content: "\201D"; }
-.bq-pointer-left:before        { content: "\2039"; }
+.bq-pointer-left:after        { content: "\2039"; }
 .bq-pointer-right:after        { content: "\203A"; }
-.bq-pointer-double-left:before { content: "\00AB"; }
+.bq-pointer-double-left:after { content: "\00AB"; }
 .bq-pointer-double-right:after { content: "\00BB"; }
-.bq-dash:before                { content: "\2014"; }
+.bq-dash:after                { content: "\2014"; }
 
 /* Arrow ---------------------- */
 .arrow-right:after        { content: "\2192"; }
 .arrow-up-right:after     { content: "\2197"; }
 .arrow-up-right-big:after { content: "\279A"; }
-.arrow-left:before        { content: "\2190"; }
-.arrow-up:before          { content: "\2191"; }
+.arrow-left:after        { content: "\2190"; }
+.arrow-up:after          { content: "\2191"; }
 .arrow-circle:after       { content: "\21BB"; }
 .arrow-nav:after          { content: "\27A4"; }
 .arrow-download:after     { content: "\21E3"; }

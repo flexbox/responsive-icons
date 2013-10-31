@@ -12,13 +12,16 @@ html
     = stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Lobster|PT+Sans'
     = stylesheet_link_tag 'application'
     = partial 'views/analytics_code'
-  body
 
+  body.off.fadein.anim_1
     = partial "views/header"
     = yield
     = partial "views/footer"
 
     a href="#{data.settings.social.google_plus}?rel=author" class="hide"
       'Google
+
+
+    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'
     = javascript_include_tag 'application'
     = partial 'views/analytics_lib'

@@ -6,35 +6,13 @@ i {
 	background-color: rgba($white,.4);
   border-radius: $global-radius;
 
-  &:after,
-  &:before {
+  &:after {
     margin: 0 emCalc(5);
   }
 
-  &:hover{
+  &:hover {
     border: 1px solid #C6C6C6;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     background-color: rgba($white,.8);
   }
 }
-
-.bq-double-left:before,
-.bq-double-right:after,
-.bq-pointer-left:before,
-.bq-pointer-right:after{ padding: 0 emCalc(5); }
-.bq-pointer-double-left:before,
-.bq-pointer-double-right:after{ padding: 0 emCalc(5) 0 0; }
-
-.arrow-up-right:after,
-.ui-menu:after{ padding: 0 emCalc(5) 0 0; }
-.arrow-up:before{ padding: 0  emCalc(5) 0 emCalc(10); }
-
-.heart:after,
-.tilde-light:after { padding: 0 emCalc(5) 0 0; }
-.tilde:after,
-.bull:after,
-.pipe:after { padding: 0 20px 0 emCalc(5); }
-
-.sdot:after,
-.tri-right:after,
-.arrow-download:after { margin: 0 0.375em; }

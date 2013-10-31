@@ -2,22 +2,24 @@ $(document).ready ->
 
   # Fetch data on the icon
   $("i").click ->
+    element = $(this)
+
     $('.m-clipboard').addClass('is-active')
-    $("#js-icon").html "&" + $(this).attr("entity-name")
-    $("#js-name").html "<span>&</span>" + $(this).attr("entity-name")
-    $("#js-hex").html $(this).attr("entity-hex")
-    $("#js-class").html "." + $(this).attr("class")
+    $("#js-icon").html "&" + element.attr("entity-name")
+    $("#js-name").html "<span>&</span>" + element.attr("entity-name")
+    $("#js-hex").html element.attr("entity-hex")
+    $("#js-class").html "." + element.attr("class")
 
 
   # Copy / Paste function
   $(".clipboard").click ->
-    texte = $(this).html()
+    text = $(this).html()
     entity = new RegExp("<span>&amp;</span>")
     retour = $("#e-name").val()
-    if entity.test(texte) is true
-      retour = texte.replace("<span>&amp;</span>", "")
+    if entity.test(text) is true
+      retour = text.replace("<span>&amp;</span>", "")
       retour = "&" + retour
     else
-      retour = texte
+      retour = text
     window.prompt "Copy to clipboard : Ctrl+C", String(retour)
 
