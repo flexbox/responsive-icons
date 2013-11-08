@@ -1,0 +1,18 @@
+$cyan    : #158D9F;
+$yellow  : #FDB813;
+$magenta : #EB426A;
+
+
+$gray        : #D1CCC3;
+$black       : #111111;
+$black-light : #696661;
+$white       : #F8F8F8;
+
+// We use these as default colors throughout
+$primary-color  : $cyan;
+$secondary-color: $magenta;
+$alert-color    : #c60f13 !default;
+$success-color  : #5da423 !default;
+
+$subheader-font-color : $black-light;
+$small-font-color     : $black-light;

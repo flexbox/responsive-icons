@@ -1,0 +1,53 @@
+body {
+  background: url("../images/background_paper.jpg") repeat fixed 0 0 #EBE9E7;
+}
+.footer-content{
+  background: url("../images/background_footer.png") repeat-x scroll 0 0 transparent;
+  padding: 2em 0 7em;
+}
+
+#top {
+  h1,
+  p {
+    color: $black;
+  }
+}
+
+h1, .l-logo{
+  text-shadow: 0 2px 0 #FCF9EE, 0 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+h2{
+  font-family: "PT sans";
+  text-shadow: 0 1px 0 #FCF9EE, 0 2px 0 rgba(0, 0, 0, 0.15);
+}
+
+footer,
+.top-bar {
+  text-shadow : 0 1px 0 rgba(0, 0, 0, 0.15);
+
+  p {
+    color: $gray;
+  }
+}
+
+.color-contrast{
+  color: $gray;
+}
+
+
+a {
+  color: $cyan;
+  text-decoration: none;
+  @include single-transition();
+}
+
+a:hover {
+  color: $magenta;
+}
+
+hr {
+  height:0px; border:0px;
+  border-top: 3px dashed $gray;
+  margin: 1em 0 2em;
+}
