@@ -2,7 +2,7 @@
 
 ### Quickly copy paste icons
 
-A design pattern with html unicode symbols usefull in webdesign. The advantages of using html entities rather than images :
+Webapp with html unicode symbols usefull in webdesign. The advantages of using html entities rather than images :
 
 1. It loads fast because it is text base.
 2. Scalable according to font size.
