@@ -51,3 +51,9 @@ hr {
   border-top: 3px dashed $gray;
   margin: 1em 0 2em;
 }
+
+.m-flattr {
+  width: 100px;
+  margin: 0 auto emCalc(30);
+  display: block;
+}

@@ -16,3 +16,9 @@ footer.footer-content
         ', hosted on
         = link_to('github ', 'https://github.com/flexbox/')
         '.
+
+      p.text-center
+        small
+          'Contribute with micro donation
+      = link_to "https://flattr.com/submit/auto?user_id=#{data.settings.social.flattr}&url=#{data.settings.site.url}", target: '_blank', class: 'm-flattr' do
+        = image_tag '//api.flattr.com/button/flattr-badge-large.png', alt: 'Help me to develop this webapp', title: 'Help me to develop this webapp'
