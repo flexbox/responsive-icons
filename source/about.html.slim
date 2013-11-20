@@ -1,0 +1,28 @@
+---
+title: How to use HTML character entities in CSS and JavaScript
+---
+
+.row.inner.fadein.anim_3
+  .large-10.large-centered.columns
+    h1 Use HTML character entities in CSS for responsive design
+    p
+      'If you are familiar with HTML markup you know character entities. They are commonly used for blockquote, shapes, arrows, separator, ...
+    p
+      ' For example :
+      span &
+      'star;
+      span &
+      'hearts;
+      span &
+      'rarr;
+    p
+      ' It’s not necessary to use these codes if you’re encoding pages in UTF-8, but this markup can save your life especially in the cross-encoding nightmare. If you’re not using UTF-8, adjacent characters are causing issues, and it’s difficult to remember specific code for characters. Similarly, you may be using ANSI or another encoding method for CSS.
+    p
+      ' I use
+      =' link_to 'fileformat.info', 'http://www.fileformat.info/info/unicode/block/index.htm'
+      ' to discover amazing symbols usefull in webdesign. Feel free to to try my
+      =' link_to 'webapp for character entity', '/'
+      '.
+    h2 Character entities in CSS
+    p
+    ' Adding content via pseudo elements is increasingly common — especially if you’re using webfont icons. To add any UTF-8 character, you need to find its number and convert that to hexadecimal. For star, it’s 2606. This can be added within a CSS file using a preceding backslash.

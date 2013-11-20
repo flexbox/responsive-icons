@@ -1,12 +1,12 @@
 .m-clipboard {
   padding-top: 1em;
   position: fixed;
-  bottom: -100px;
-  height: 100px;
+  bottom: -130px;
+  height: 130px;
   width: 100%;
   @include single-transition();
   z-index: 100;
-
+  color: $white;
 
   &.is-active {
     bottom: 0px;
@@ -19,9 +19,13 @@
 
   a {
     display: block;
-    padding: 1em 2em;
+    text-align: center;
     font-size: emCalc(18);
     background-color: rgba($white,.9);
     border-radius: $global-radius;
+    padding: 1em 0em;
+    @media #{$small} {
+      padding: 1em 2em;
+    }
   }
 }
