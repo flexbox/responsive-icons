@@ -4,7 +4,7 @@ title: How to use HTML character entities in CSS and JavaScript
 
 .row.inner.fadein.anim_3
   .large-10.large-centered.columns
-    h1 Use HTML character entities in CSS for responsive design
+    h2 Use HTML character entities in CSS for responsive design
     p
       'If you are familiar with HTML markup you know character entities. They are commonly used for blockquote, shapes, arrows, separator, ...
     p
@@ -25,4 +25,16 @@ title: How to use HTML character entities in CSS and JavaScript
       '.
     h2 Character entities in CSS
     p
-    ' Adding content via pseudo elements is increasingly common — especially if you’re using webfont icons. To add any UTF-8 character, you need to find its number and convert that to hexadecimal. For star, it’s 2606. This can be added within a CSS file using a preceding backslash.
+      ' If you have already use a webfont icon library, you know how to add content with pseudo element'
+      ' To add UTF-8 character, you need to find its number and convert that to hexadecimal. For star, it’s 2606. This can be added within a CSS file using a preceding backslash.
+    pre
+      code
+        '.star-o:before {
+        br
+        '  content: "\2606";
+        br
+        '}
+
+    .row
+      .small-6.small-centered.columns
+        = link_to 'Try the webapp ►', '/', class: 'button expand'
