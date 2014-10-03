@@ -1,0 +1,18 @@
+body {
+  font-family: $body-font-family;
+}
+
+h1, h2, h3 {
+  color: $white;
+  font-weight: $font-weight-light;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 0.33rem;
+}
+
+h2 {
+  font-size: 3.33333rem;
+  margin-bottom: 0.495rem;
+}

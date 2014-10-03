@@ -4,7 +4,7 @@
   bottom: -130px;
   height: 130px;
   width: 100%;
-  @include single-transition();
+  transition: height 200ms ease-in-out;
   z-index: 100;
   color: $white;
 
@@ -24,8 +24,5 @@
     background-color: rgba($white,.9);
     border-radius: $global-radius;
     padding: 1em 0em;
-    @media #{$small} {
-      padding: 1em 2em;
-    }
   }
 }

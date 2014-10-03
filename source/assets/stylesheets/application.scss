@@ -4,10 +4,14 @@
 @import "custom-settings";
 @import "google-font";
 
-@import "components/symbol";
-@import "components/symbol-style";
+@import "normalize.css/normalize.css";
+@import "components/responsive-icon";
+@import "components/responsive-icon-style";
+@import "components/type";
 @import "components/clipboard";
 
 @import "animate.css/source/fading_entrances/fadeIn";
 @import "animate.css/source/fading_entrances/fadeInUp";
 @import "animate.css/source/fading_entrances/fadeInRight";
+
+@import "modules/layout";

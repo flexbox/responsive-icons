@@ -1,0 +1,37 @@
+
+    Code a la main depuis 2012
+
+    Humans TXT: Nous Sommes Des Humains, Pas Des Machines
+
+_______________________________________________________________________________
+
+TEAM
+
+Ce site est code a la main par David Leuliette.
+Developpeur front-end
+http://davidl.fr/about.html
+
+_______________________________________________________________________________
+
+TECHNOLOGIE
+
+Middleman
+http://middlemanapp.com/
+
+SASS
+http://sass-lang.com/
+
+Github
+https://github.com/
+
+smoothState
+http://weblinc.github.io/jquery.smoothState.js/
+
+_______________________________________________________________________________
+
+RESSOURCES GRAPHIQUES
+
+Lato (font)
+http://www.google.com/fonts/specimen/Lato
+
+_______________________________________________________________________________

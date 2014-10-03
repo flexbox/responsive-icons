@@ -1,0 +1,26 @@
+.ri-list {
+  list-style-type: none;
+  li {
+    float: left;
+    border: 1px solid $white;
+    background-color: rgba($white,.2);
+    cursor: pointer;
+    padding: 2em;
+    &:hover {
+      border: 1px solid #C6C6C6;
+      box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+      background-color: rgba($white,.8);
+    }
+  }
+      @extend %clearfix;
+}
+
+i {
+  font-style: normal;
+  font-size: 2.5em;
+
+  &:after {
+    margin: 0 emCalc(5);
+  }
+
+}

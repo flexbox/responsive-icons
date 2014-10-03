@@ -13,8 +13,10 @@ html lang="en"
 
   body
     #js-main.m-scene
-      = partial "views/header"
-      == yield
-      = partial "views/footer"
+      = partial "views/global/header"
+      .m-content.scene_element.scene_element--fadeinup
+        == yield
+        = partial "views/global/footer"
+      = partial "views/global/clipboard"
     = javascript_include_tag 'application', async: 'true', defer: 'defer'
     = google_analytics_universal_tag

@@ -38,3 +38,9 @@ title: How to use HTML character entities in CSS and JavaScript
     .row
       .small-6.small-centered.columns
         = link_to 'Try the webapp ►', '/', class: 'button expand'
+    p
+      small
+        'Contribute with micro donation
+    = link_to "https://flattr.com/submit/auto?user_id=#{data.settings.social.flattr}&url=#{data.settings.site.url}", target: '_blank', class: 'm-flattr' do
+      = image_tag '//api.flattr.com/button/flattr-badge-large.png', alt: 'Help me to develop this webapp', title: 'Help me to develop this webapp'
+

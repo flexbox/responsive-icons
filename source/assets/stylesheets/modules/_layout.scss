@@ -1,0 +1,30 @@
+body {
+  background-color: $primary-color;
+  color: $black;
+  margin: 0;
+  padding: 0;
+}
+
+.m-header {
+  padding: 2.5em 8.5em 2.25em;
+}
+
+.m-content {
+  background-color: $white;
+}
+
+.m-footer {
+  color: $white;
+  background-color: $black;
+  text-align: center;
+  p {
+    margin: auto auto 1.5em;
+  }
+  a {
+    color: $secondary-color;
+    text-decoration: none;
+    &:hover {
+      border-bottom: 1px solid $secondary-color;
+    }
+  }
+}

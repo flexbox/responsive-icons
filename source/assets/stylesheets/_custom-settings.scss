@@ -8,3 +8,12 @@ $font-family-monospace: 'Ubuntu Mono', 'Monaco', monospace;
 
 $body-bg: $primary-color;
 $anchor-color: $primary-color;
+$global-radius: 3px;
+
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
