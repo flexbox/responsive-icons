@@ -1,0 +1,22 @@
+{
+  "name": "reponsive-icon",
+  "version": "2.0.1",
+  "homepage": "https://responsiveicon.fr",
+  "authors": [
+    "flexbox <dleuliette@gmail.com>"
+  ],
+  "description": "Quickly copy / paste HTML character entities",
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "smoothstate": "~0.5.1",
+    "animate.css": "~3.2.0"
+  }
+}

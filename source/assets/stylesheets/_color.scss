@@ -1,18 +1,15 @@
-$cyan    : #158D9F;
-$yellow  : #FDB813;
-$magenta : #EB426A;
+$blue:      #00BAD2;
+$pink:      #E91E63;
 
+$gray        : #DBDBDB;
+$black       : #1A1A1A;
+$black-light : #727272;
+$white       : #FAFAFA;
 
-$gray        : #D1CCC3;
-$black       : #111111;
-$black-light : #696661;
-$white       : #F8F8F8;
+$primary-color:   $blue;
+$secondary-color: $pink;
 
-// We use these as default colors throughout
-$primary-color  : $cyan;
-$secondary-color: $magenta;
-$alert-color    : #c60f13 !default;
-$success-color  : #5da423 !default;
-
-$subheader-font-color : $black-light;
-$small-font-color     : $black-light;
+$alert-color:   #E51C23;
+$success-color: #259B24;
+$warning-color: #FF5722;
+$info-color:    #03A9F4;
