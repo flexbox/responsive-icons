@@ -1,28 +1,38 @@
 .m-clipboard {
+  background-color: rgba($black, 0.8);
   padding-top: 1em;
   position: fixed;
-  bottom: -130px;
-  height: 130px;
+  bottom: 0px;
+  height: 0px;
   width: 100%;
   transition: height 200ms ease-in-out;
   z-index: 100;
+  text-align: center;
   color: $white;
 
   &.is-active {
-    bottom: 0px;
+    height: 100px;
   }
 
-  li {
-    float: left;
-    margin-right: 0.5em;
+  ul {
+    list-style-type: none;
+    margin: 0 0 0 1em;
+    padding: 0;
+    @extend %clearfix;
+    li {
+      float: left;
+      margin-right: 0.5em;
+      color: $gray;
+    }
   }
 
   a {
     display: block;
     text-align: center;
-    font-size: emCalc(18);
+    font-size: 1.1em;
     background-color: rgba($white,.9);
-    border-radius: $global-radius;
-    padding: 1em 0em;
+    padding: 1em 0.25em;
+    text-decoration: none;
+    color: $secondary-color;
   }
 }

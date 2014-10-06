@@ -3,7 +3,6 @@ html lang="en"
   head
     meta charset="utf-8"
     meta name="viewport" content="width=device-width, initial-scale=1.0"
-
     title #{data.settings.site.title} &bull; #{current_page.data.title}
     meta name="description" content="#{data.settings.site.description}"
     meta name="robots" content="index,follow"
@@ -14,7 +13,7 @@ html lang="en"
   body
     #js-main.m-scene
       = partial "views/global/header"
-      .m-content.scene_element.scene_element--fadeinup
+      #js-content.m-content.scene_element.scene_element--fadeinup
         == yield
         = partial "views/global/footer"
       = partial "views/global/clipboard"

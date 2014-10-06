@@ -11,7 +11,7 @@ Webapp with html unicode symbols usefull in webdesign. The advantages of using h
 
 ## How it works ?
 
-I use the css pseudo-element `:before` and `:after` for include icons. If you want to use the class sytem simply add the file `symbol.css` in your project.
+I use the css pseudo-element `:before` and `:after` for include icons.
 
 ## Compatibility
 

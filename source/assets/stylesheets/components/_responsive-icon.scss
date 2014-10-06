@@ -1,76 +1,80 @@
-/* Blockquote ----------------- */
-.bq-double-left:after         { content: "\201C"; }
-.bq-double-right:after         { content: "\201D"; }
-.bq-pointer-left:after        { content: "\2039"; }
-.bq-pointer-right:after        { content: "\203A"; }
-.bq-pointer-double-left:after { content: "\00AB"; }
-.bq-pointer-double-right:after { content: "\00BB"; }
-.bq-dash:after                { content: "\2014"; }
+.ri-angle-double-left:after          { content: "\201C"; }
+.ri-angle-double-right:after         { content: "\201D"; }
+.ri-angle-pointer-left:after         { content: "\2039"; }
+.ri-angle-pointer-right:after        { content: "\203A"; }
+.ri-angle-pointer-double-left:after  { content: "\00AB"; }
+.ri-angle-pointer-double-right:after { content: "\00BB"; }
+.ri-dash:after                 { content: "\2014"; }
 
-/* Arrow ---------------------- */
-.arrow-right:after        { content: "\2192"; }
-.arrow-up-right:after     { content: "\2197"; }
-.arrow-up-right-big:after { content: "\279A"; }
-.arrow-left:after        { content: "\2190"; }
-.arrow-up:after          { content: "\2191"; }
-.arrow-circle:after       { content: "\21BB"; }
-.arrow-nav:after          { content: "\27A4"; }
-.arrow-download:after     { content: "\21E3"; }
 
-/* Stars ---------------------- */
-.star-black:after { content: "\2605"; }
-.star-white:after { content: "\2606"; }
 
-/* Symbols ------------------- */
-.symbol-copy:after { content: "\00A9"; }
-.symbol-tm:after   { content: "\2122"; }
-.symbol-percent:after   { content: "\0025"; }
+.ri-arrow-right:after        { content: "\2192"; }
+.ri-arrow-up-right:after     { content: "\2197"; }
+.ri-arrow-up-right-big:after { content: "\279A"; }
+.ri-arrow-left:after         { content: "\2190"; }
+.ri-arrow-up:after           { content: "\2191"; }
+.ri-arrow-circle:after       { content: "\21BB"; }
+.ri-arrow-nav:after          { content: "\27A4"; }
+.ri-arrow-download:after     { content: "\21E3"; }
 
-/* Geometric ------------------- */
-.triangle-up:after   { content: "\25B2"; }
-.triangle-down:after { content: "\25BC"; }
-.triangle-right:after{ content: "\25BA"; }
-.triangle-left:after { content: "\25C4"; }
-.triangle-black:after{ content: "\25B8"; }
-.triangle-white:after{ content: "\25B9"; }
-.infinite:after      { content: "\221E"; }
 
-/* Web UI ---------------------- */
-.ui-check:after      { content: "\2713"; }
-.ui-check-big:after  { content: "\2714"; }
-.ui-cross-light:after{ content: "\274C"; }
-.ui-cross:after      { content: "\2717"; }
-.ui-cross-big:after  { content: "\2718"; }
-.ui-cross-large:after{ content: "\2716"; }
-.ui-add:after        { content: "\002B"; }
-.ui-add-big:after    { content: "\271A"; }
-.ui-edit:after       { content: "\270E"; }
-.ui-menu:after       { content: "\2261"; }
-.ui-zoom-open:after  { content: "\2922"; }
-.ui-zoom-open-invert:after  { content: "\2921"; }
-.ui-warning:after  { content: "\26A0"; }
 
-.checkbox-empty:after { content: "\2610"; }
-.checkbox-check:after { content: "\2611"; }
-.checkbox-cross:after { content: "\2612"; }
+.ri-star-black:after { content: "\2605"; }
+.ri-star-white:after { content: "\2606"; }
 
-.phone:after        { content: "\2706"; }
-.email:after        { content: "\2709"; }
-.female:after       { content: "\2640"; }
-.male:after         { content: "\2642"; }
-.heart:after        { content: "\2665"; }
-.smiley-good:after  { content: "\263A"; }
-.smiley-black:after { content: "\263B"; }
-.smiley-bad:after   { content: "\2639"; }
 
-/* Separator ---------------------- */
-.tilde:after       { content: "\02DC"; }
-.tilde-light:after { content: "\223C"; }
-.bull:after        { content: "\2022"; }
-.sdot:after        { content: "\22c5"; }
-.pipe:after        { content: "\2758"; }
-.tri-right:after   { content: "\2023"; }
 
-/* Weather ---------------------- */
-.weather-sun:after       { content: "\263C"; }
-.weather-thunder:after   { content: "\26A1"; }
+.ri-symbol-copy:after      { content: "\00A9"; }
+.ri-symbol-tm:after        { content: "\2122"; }
+.ri-symbol-percent:after   { content: "\0025"; }
+
+
+
+.ri-triangle-up:after    { content: "\25B2"; }
+.ri-triangle-down:after  { content: "\25BC"; }
+.ri-triangle-right:after { content: "\25BA"; }
+.ri-triangle-left:after  { content: "\25C4"; }
+.ri-triangle-black:after { content: "\25B8"; }
+.ri-triangle-white:after { content: "\25B9"; }
+.ri-infinite:after       { content: "\221E"; }
+
+.ri-check:after            { content: "\2713"; }
+.ri-check-big:after        { content: "\2714"; }
+.ri-cross-light:after      { content: "\274C"; }
+.ri-cross:after            { content: "\2717"; }
+.ri-cross-big:after        { content: "\2718"; }
+.ri-cross-large:after      { content: "\2716"; }
+.ri-add:after              { content: "\002B"; }
+.ri-add-big:after          { content: "\271A"; }
+.ri-edit:after             { content: "\270E"; }
+.ri-menu:after             { content: "\2261"; }
+.ri-zoom-open:after        { content: "\2922"; }
+.ri-zoom-open-invert:after { content: "\2921"; }
+.ri-warning:after          { content: "\26A0"; }
+
+.ri-checkbox-empty:after { content: "\2610"; }
+.ri-checkbox-check:after { content: "\2611"; }
+.ri-checkbox-cross:after { content: "\2612"; }
+
+.ri-phone:after        { content: "\2706"; }
+.ri-email:after        { content: "\2709"; }
+.ri-female:after       { content: "\2640"; }
+.ri-male:after         { content: "\2642"; }
+.ri-heart:after        { content: "\2665"; }
+.ri-smiley-good:after  { content: "\263A"; }
+.ri-smiley-black:after { content: "\263B"; }
+.ri-smiley-bad:after   { content: "\2639"; }
+
+
+
+.ri-tilde:after       { content: "\02DC"; }
+.ri-tilde-light:after { content: "\223C"; }
+.ri-bull:after        { content: "\2022"; }
+.ri-sdot:after        { content: "\22c5"; }
+.ri-pipe:after        { content: "\2758"; }
+.ri-tri-right:after   { content: "\2023"; }
+
+
+
+.ri-weather-sun:after       { content: "\263C"; }
+.ri-weather-thunder:after   { content: "\26A1"; }
