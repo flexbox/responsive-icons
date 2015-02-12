@@ -4,15 +4,17 @@
 .ri-angle-pointer-right:after        { content: "\203A"; }
 .ri-angle-pointer-double-left:after  { content: "\00AB"; }
 .ri-angle-pointer-double-right:after { content: "\00BB"; }
-.ri-dash:after                 { content: "\2014"; }
 
-
+.ri-figure-dash:after             { content: "\2012"; }
+.ri-en-dash:after                 { content: "\2013"; }
+.ri-em-dash:after                 { content: "\2014"; }
 
 .ri-arrow-right:after        { content: "\2192"; }
 .ri-arrow-up-right:after     { content: "\2197"; }
 .ri-arrow-up-right-big:after { content: "\279A"; }
 .ri-arrow-left:after         { content: "\2190"; }
 .ri-arrow-up:after           { content: "\2191"; }
+.ri-arrow-down:after         { content: "\2193"; }
 .ri-arrow-circle:after       { content: "\21BB"; }
 .ri-arrow-nav:after          { content: "\27A4"; }
 .ri-arrow-download:after     { content: "\21E3"; }
