@@ -1,82 +1,75 @@
-.ri-angle-double-left:after          { content: "\201C"; }
-.ri-angle-double-right:after         { content: "\201D"; }
-.ri-angle-pointer-left:after         { content: "\2039"; }
-.ri-angle-pointer-right:after        { content: "\203A"; }
-.ri-angle-pointer-double-left:after  { content: "\00AB"; }
-.ri-angle-pointer-double-right:after { content: "\00BB"; }
+$icon-names: (
+  angle-double-left          :'\201C',
+  angle-double-right         :'\201D',
+  angle-pointer-left         :'\2039',
+  angle-pointer-right        :'\203A',
+  angle-pointer-double-left  :'\00AB',
+  angle-pointer-double-right :'\00BB',
+  figure-dash                :'\2012',
+  en-dash                    :'\2013',
+  em-dash                    :'\2014',
+  arrow-right                :'\2192',
+  arrow-up-right             :'\2197',
+  arrow-up-right-big         :'\279A',
+  arrow-left                 :'\2190',
+  arrow-up                   :'\2191',
+  arrow-down                 :'\2193',
+  arrow-circle               :'\21BB',
+  arrow-nav                  :'\27A4',
+  arrow-download             :'\21E3',
+  star                       :'\2605',
+  star-o                     :'\2606',
+  symbol-copy                :'\00A9',
+  symbol-tm                  :'\2122',
+  symbol-percent             :'\0025',
+  triangle-up                :'\25B2',
+  triangle-down              :'\25BC',
+  triangle-right             :'\25BA',
+  triangle-left              :'\25C4',
+  triangle-black             :'\25B8',
+  triangle-white             :'\25B9',
+  infinite                   :'\221E',
+  check                      :'\2713',
+  check-big                  :'\2714',
+  cross-light                :'\274C',
+  cross                      :'\2717',
+  cross-big                  :'\2718',
+  cross-large                :'\2716',
+  add                        :'\002B',
+  add-big                    :'\271A',
+  edit                       :'\270E',
+  menu                       :'\2261',
+  zoom-open                  :'\2922',
+  zoom-open-invert           :'\2921',
+  warning                    :'\26A0',
+  checkbox-empty             :'\2610',
+  checkbox-check             :'\2611',
+  checkbox-cross             :'\2612',
+  phone                      :'\2706',
+  email                      :'\2709',
+  female                     :'\2640',
+  male                       :'\2642',
+  heart                      :'\2665',
+  smiley-good                :'\263A',
+  smiley-black               :'\263B',
+  smiley-bad                 :'\2639',
+  tilde                      :'\02DC',
+  tilde-light                :'\223C',
+  bull                       :'\2022',
+  sdot                       :'\22c5',
+  pipe                       :'\2758',
+  tri-right                  :'\2023',
+  weather-sun                :'\263C',
+  weather-thunder            :'\26A1'
+);
 
-.ri-figure-dash:after             { content: "\2012"; }
-.ri-en-dash:after                 { content: "\2013"; }
-.ri-em-dash:after                 { content: "\2014"; }
+%responsive-icon-base {
+  font-size: 1em;
+}
 
-.ri-arrow-right:after        { content: "\2192"; }
-.ri-arrow-up-right:after     { content: "\2197"; }
-.ri-arrow-up-right-big:after { content: "\279A"; }
-.ri-arrow-left:after         { content: "\2190"; }
-.ri-arrow-up:after           { content: "\2191"; }
-.ri-arrow-down:after         { content: "\2193"; }
-.ri-arrow-circle:after       { content: "\21BB"; }
-.ri-arrow-nav:after          { content: "\27A4"; }
-.ri-arrow-download:after     { content: "\21E3"; }
-
-
-
-.ri-star:after { content: "\2605"; }
-.ri-star-o:after { content: "\2606"; }
-
-
-
-.ri-symbol-copy:after      { content: "\00A9"; }
-.ri-symbol-tm:after        { content: "\2122"; }
-.ri-symbol-percent:after   { content: "\0025"; }
-
-
-
-.ri-triangle-up:after    { content: "\25B2"; }
-.ri-triangle-down:after  { content: "\25BC"; }
-.ri-triangle-right:after { content: "\25BA"; }
-.ri-triangle-left:after  { content: "\25C4"; }
-.ri-triangle-black:after { content: "\25B8"; }
-.ri-triangle-white:after { content: "\25B9"; }
-.ri-infinite:after       { content: "\221E"; }
-
-.ri-check:after            { content: "\2713"; }
-.ri-check-big:after        { content: "\2714"; }
-.ri-cross-light:after      { content: "\274C"; }
-.ri-cross:after            { content: "\2717"; }
-.ri-cross-big:after        { content: "\2718"; }
-.ri-cross-large:after      { content: "\2716"; }
-.ri-add:after              { content: "\002B"; }
-.ri-add-big:after          { content: "\271A"; }
-.ri-edit:after             { content: "\270E"; }
-.ri-menu:after             { content: "\2261"; }
-.ri-zoom-open:after        { content: "\2922"; }
-.ri-zoom-open-invert:after { content: "\2921"; }
-.ri-warning:after          { content: "\26A0"; }
-
-.ri-checkbox-empty:after { content: "\2610"; }
-.ri-checkbox-check:after { content: "\2611"; }
-.ri-checkbox-cross:after { content: "\2612"; }
-
-.ri-phone:after        { content: "\2706"; }
-.ri-email:after        { content: "\2709"; }
-.ri-female:after       { content: "\2640"; }
-.ri-male:after         { content: "\2642"; }
-.ri-heart:after        { content: "\2665"; }
-.ri-smiley-good:after  { content: "\263A"; }
-.ri-smiley-black:after { content: "\263B"; }
-.ri-smiley-bad:after   { content: "\2639"; }
-
-
-
-.ri-tilde:after       { content: "\02DC"; }
-.ri-tilde-light:after { content: "\223C"; }
-.ri-bull:after        { content: "\2022"; }
-.ri-sdot:after        { content: "\22c5"; }
-.ri-pipe:after        { content: "\2758"; }
-.ri-tri-right:after   { content: "\2023"; }
-
-
-
-.ri-weather-sun:after       { content: "\263C"; }
-.ri-weather-thunder:after   { content: "\26A1"; }
+@each $name, $i in $icon-names {
+  .ri-#{$name}:after {
+    @extend %responsive-icon-base;
+    content: $i;
+  }
+}
