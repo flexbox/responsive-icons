@@ -1,18 +1,17 @@
-@charset "UTF-8";
+@charset 'utf-8';
 
-@import "color";
-@import "custom-settings";
-@import "google-font";
+@import 'color';
+@import 'custom-settings';
 
-@import "normalize.css/normalize.css";
-@import "components/responsive-icon";
-@import "components/responsive-icon-style";
-@import "components/type";
-@import "components/clipboard";
-@import "components/transition";
+@import 'normalize.css/normalize.css';
+@import 'components/responsive-icon';
+@import 'components/responsive-icon-style';
+@import 'components/type';
+@import 'components/clipboard';
+@import 'components/transition';
 
-@import "animate.css/source/fading_entrances/fadeIn";
-@import "animate.css/source/fading_entrances/fadeInUp";
-@import "animate.css/source/fading_entrances/fadeInRight";
+@import 'animate.css/source/fading_entrances/fadeIn';
+@import 'animate.css/source/fading_entrances/fadeInUp';
+@import 'animate.css/source/fading_entrances/fadeInRight';
 
-@import "modules/layout";
+@import 'modules/layout';

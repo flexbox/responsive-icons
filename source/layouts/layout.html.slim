@@ -9,13 +9,14 @@ html lang="en"
 
     = partial 'views/favicon'
     = stylesheet_link_tag 'application'
+    = stylesheet_link_tag 'https://fonts.googleapis.com/css?family=Lato:300,400'
 
   body
     #js-main.m-scene
-      = partial "views/global/header"
+      = partial 'views/global/header'
       #js-content.m-content.scene_element.scene_element--fadeinup
         == yield
-        = partial "views/global/footer"
-      = partial "views/global/clipboard"
+        = partial 'views/global/footer'
+      = partial 'views/global/clipboard'
     = javascript_include_tag 'application', async: 'true', defer: 'defer'
     = google_analytics_universal_tag
